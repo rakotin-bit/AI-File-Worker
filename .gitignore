@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# Environment
+.env
+
+# Databases
+*.db
+
+# Uploaded files
+uploads/
+
+# Logs
+*.log
