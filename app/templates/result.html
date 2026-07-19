@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Результат AI Worker</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+        }
+
+        .result {
+            white-space: pre-wrap;
+            word-break: break-word;
+            border: 1px solid #ccc;
+            padding: 15px;
+            background: #f8f8f8;
+            border-radius: 6px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h1>{{ result.worker }}</h1>
+
+<p><strong>Документ:</strong> {{ result.filename }}</p>
+
+<hr>
+
+<div class="result">{{ result.result }}</div>
+
+<hr>
+
+<a href="/">← Вернуться к документам</a>
+
+</body>
+
+</html>
